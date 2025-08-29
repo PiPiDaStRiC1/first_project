@@ -1,0 +1,584 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap'); 
+/* Nunito */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* Poppins */
+body {
+    margin: 0;
+    min-width: 850px;
+    max-width: 1920px;
+}
+html {
+    font-size: 10px;
+}
+.head {
+    display: flex;
+    font-family: Nunito;
+    justify-content: space-between;
+}
+.header-menu {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+.header-text {
+    height: 2.7rem;
+    font-size: 1.6rem;
+    padding: 2.4rem 0 1.7rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.69;
+    color: #716c80;
+}
+.header-phone {
+  height: 2.1rem;
+  font-size: 1.6rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #716c80;
+  padding: 2.4rem 0 2.3rem;
+  text-decoration: none;
+  align-self: flex-end;
+}
+.header-icon {
+  width: 2rem;
+  height: 1.6rem;
+  font-size: 1.6rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #716c80;
+  margin-right: 0.8rem;
+}
+.header-phone:hover {
+    text-decoration: underline;
+}
+.phone {
+    padding: 2.4rem 0 2.3rem;
+}
+.header-phone::before {
+    content: "\f2a0";
+    font-family: FontAwesome;
+    margin-right: 0.8rem;
+}
+.logo {
+    width: 3.98rem;
+    height: 3.98rem;
+    margin-right: 2.2rem;
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 2rem;
+}
+.menu-el {
+  height: 2.1rem;
+  text-decoration: none;
+  font-family: Nunito;
+  font-size: 1.6rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color: #5b5766;
+  transition: text-shadow 0.3s;
+}
+.btn {
+    display: inline-block;
+    text-decoration: none;
+  color: #6852ed;
+  border: #6852ed solid 1px;
+  padding: 1rem 1.6rem 0.9rem;
+  border-radius: 30px;
+}
+.buttons {
+    font-family: Poppins;
+  font-size: 1.4rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.44px;
+  align-self: flex-end;
+}
+.head-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 2.6rem;
+}
+.btn:hover {
+  color: aliceblue;
+  background-color: #6852ed;
+}
+.menu-el:hover {
+  font-family: Nunito;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color: #554d89;
+  text-shadow: 0 0 0.5px currentColor, 0 0 0.5px currentColor;  
+}
+.devider {
+  position: absolute;
+  margin: 0;
+  border-bottom: 0.01rem solid rgb(153, 150, 150);
+  width: 100%;
+  top: 6.9rem;
+}
+.body-top {
+  display: flex;
+  position: relative;
+  gap: 2.42rem;
+}
+.hero {
+  width: 79.49rem;
+  height: 79.87rem;
+  padding-top: 10.59rem;
+}
+.body-top-text1 {
+  font-family: Poppins;
+  font-size: 5rem;
+  font-weight: bold;
+  font-style: normal;
+  letter-spacing: normal;
+  color: #554d89;
+  text-align: left; 
+  padding-top: 23.88rem;
+  flex-grow: 1;
+}
+.wrapper1 {
+  margin: 0;
+  padding: 0 39rem;
+}
+.wrapper2 {
+  position: relative;
+  margin: 0;
+  padding: 0 35.09rem 0 39rem;
+}
+.body-top-text2 {
+  font-family: Nunito;
+  font-size: 2.2rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color: #5b5766;
+  padding-top: 3.2rem;
+}
+.body-top-btn {
+  display: inline-block;
+  font-family: Poppins;
+  font-size: 1.6rem;
+  font-weight: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #fff;
+  margin-top: 4rem;
+  padding: 13px 30px;
+  border-radius: 40px;
+  background-image: linear-gradient(57deg, #6852ed 20%, #ba43fc 137%);
+  text-decoration: none;
+}
+.body-top-btn:hover {
+  color: rgb(247, 239, 247);
+  background-image: none;
+  background-image: linear-gradient(57deg, #2a1e69 20%, #ba43fc 137%);
+}
+.body-top-text3 {
+  margin-left: 3rem;
+  font-family: Poppins;
+  font-size: 1.6rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #554d89;
+  text-decoration: none;
+}
+.body-top-text3::after {
+  content: "\f061";
+  font-family: FontAwesome;
+  margin-left: 1.5rem;
+}
+.body-top-text3:hover {
+  text-decoration: underline;
+}
+.arrow {
+  position: absolute;
+  width: 11rem;
+  height: 11rem;
+  background-color: #6852ed;
+  border-radius: 100px;
+  bottom: 4.66rem;
+  left: calc(50% - (11rem / 2));
+}
+.cards {
+  display: flex;
+}
+.card {
+  display: inline-block;
+  width: 36rem;
+  height: 22.9rem;
+  border: 1px solid rgb(174, 170, 170);
+  border-radius: 10px;
+  box-shadow: 0 0 20px 0 #e1e4ed;
+  background-color: #fff;
+}
+.card:not(:last-child) {
+  margin-right: 3rem;
+}
+.body-middle-title {
+  font-family: Poppins;
+  font-size: 2.2rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #554d89;
+  margin-left: 3rem;
+  margin-bottom: 1.9rem;
+}
+.body-middle-text {
+  font-family: Nunito;
+  font-size: 1.8rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  color: #716c80;
+  margin: 0 3rem;
+}
+.card:hover {
+  box-shadow: 0 0 20px 0 rgba(104, 82, 237, 0.8);
+  background-image: linear-gradient(38deg, #6852ed 44%, #ba43fc 116%);
+}
+.icon {
+  color: #6852ed;
+  font-size: 3.2rem;
+}
+.card:hover .icon{
+  display: none;
+}
+.card:hover .body-middle-title{
+  color: aliceblue;
+  margin: 30px;
+  margin-bottom: 20px;
+}
+.card:hover .body-middle-text{
+  color: aliceblue;
+  margin: 0 30px 30px 30px;
+  margin-bottom: 20px;
+}
+.read-more {
+  display: none;
+  font-family: Poppins;
+  font-size: 1.6rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color: #fff;
+  margin: 30px 15px 0 30px;
+}
+.read-more::after {
+  content: "\f061";
+  font-family: FontAwesome;
+  margin-left: 1.5rem;
+}
+.card:hover .read-more {
+  display: inline;
+  text-decoration: none;
+}
+.card:hover .read-more:hover {
+  text-decoration: underline;
+}
+.wrapper3 {
+  padding-right: 39rem;
+}
+.hero2 {
+  position: absolute;
+  top: 0;
+  z-index: -1000;
+}
+.body-top2 {
+  display: flex;
+  justify-content: space-between;
+}
+.body-text1 {
+  align-items: flex-end;
+  font-family: Poppins;
+  font-size: 2.8rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color: #554d89;
+  padding-top: 12.14rem;
+  width: 41.2rem;
+  height: 12.6rem;
+}
+.body-text2 {
+  font-family: Nunito;
+  font-size: 1.8rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  color: #716c80;
+  padding-top: 3.1rem;
+  padding-bottom: 4.8rem;
+}
+.menu-plashka {
+  display: none;
+  position: absolute;
+  width: 23.5rem;
+  height: 20.5rem;
+  flex-grow: 0;
+  border-radius: 10px;
+  box-shadow: 0 0 20px 0 #e1e4ed;
+  background-color: #fff;
+  right: -9rem;
+  z-index: 10;
+}
+.menu-plashka-text {
+  padding: 3rem 3rem 0;
+}
+.el {
+  display: block;
+  font-family: Nunito;
+  font-size: 1.6rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.31;
+  letter-spacing: normal;
+  color: #5b5766;
+  text-decoration: none;
+}
+.el:not(:last-child) {
+  padding-bottom: 1rem;
+}
+.menu-el:last-child {
+  position: relative;
+}
+.menu-el:last-child:hover .menu-plashka{
+  display: block;
+}
+.el:hover {
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color: #554d89;
+}
+.wrapper4 {
+  padding: 22rem 31.63rem 8.15rem 39rem;
+}
+.body2 {
+  display: flex;
+}
+
+
+
+.cards2 {
+  display: flex;
+}
+.first-part-cards {
+  display: flex;
+  flex-direction: column;
+}
+.second-part-cards {
+  display: flex;
+  flex-direction: column;
+}
+.card2 {
+  display: inline-block;
+  width: 36rem;
+  height: 22.9rem;
+  border: 1px solid rgb(174, 170, 170);
+  border-radius: 10px;
+  box-shadow: 0 0 20px 0 #e1e4ed;
+  background-color: #fff;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.card2:not(:last-child) {
+  margin-right: 3rem;
+  margin-bottom: 3rem;
+}
+.card2:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(104, 82, 237, 0.8);
+  background-image: linear-gradient(38deg, #6852ed 44%, #ba43fc 116%);
+}
+.card2:hover .icon{
+  display: none;
+}
+.card2:hover .body-middle-title{
+  color: aliceblue;
+  margin: 30px;
+  margin-top: 45px;
+  margin-bottom: 20px;
+}
+.card2:hover .body-middle-text{
+  color: aliceblue;
+  margin: 0 30px 30px 30px;
+  margin-bottom: 20px;
+}
+.card2:not(:first-child, :nth-child(2)):hover .body-middle-title {
+  color: aliceblue;
+  margin-top: 44px;
+}
+.read-more {
+  display: none;
+  font-family: Poppins;
+  font-size: 1.6rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color: #fff;
+  margin: 30px 15px 0 30px;
+}
+.read-more::after {
+  content: "\f061";
+  font-family: FontAwesome;
+  margin-left: 1.5rem;
+}
+.card2:hover .read-more {
+  display: inline;
+  text-decoration: none;
+}
+.card2:hover .read-more:hover {
+  text-decoration: underline;
+}
+.text-after-cards {
+  max-width: 33rem;
+  max-height: 40rem;
+  position: relative;
+  left: 81rem;
+  bottom: calc(10.7rem + 30.3rem);
+}
+
+
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10rem;
+}
+.wrapper5 {
+  padding: 0 37.5rem 0 39rem;
+  background-image: url(./images/Bg.png);
+  background-position: 6rem;
+}
+.footer-support {
+  position: relative;
+  width: 36rem;
+}
+.footer-title {
+  font-family: Poppins;
+  font-size: 2rem;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #1a1818;
+  padding-bottom: 3rem;
+}
+.sup {
+  position: absolute;
+  top: 5.9rem;
+  left: 7rem;
+}
+.footer-text {
+  font-family: Nunito;
+  font-size: 1.6rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.31;
+  color: #4e4949;
+}
+.footer-phone {
+  font-family: Poppins;
+  font-size: 2.2rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #fff;
+  text-decoration: none;
+}
+.address {
+  padding-top: 3.5rem;
+}
+
+
+.parts {
+  display: flex;
+  font-family: Nunito;
+  font-size: 1.8rem;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #554d89;
+  gap: 6.7rem;
+}
+.footer-first-part {
+  display: flex;
+  flex-direction: column;
+}
+.footer-second-part {
+  display: flex;
+  flex-direction: column;
+}
+
+.copyright {
+  display: block;
+  font-family: Nunito;
+  font-size: 1.6rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.69;
+  letter-spacing: normal;
+  text-align: left;
+  color: #716c80;
+  margin-top: 5rem;
+  margin-left: 46.5rem;
+}
+.callback {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 29.9rem;
+  padding: 1.2rem 2.1rem 1.1rem 2.4rem;
+  font-family: Nunito;
+  font-size: 1.8rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #716c80;
+  border-radius: 25px;
+  border: solid 1px #6852ed;
+}
